@@ -17,7 +17,7 @@ class Solution {
 public:
     bool isValid(string s) {
         
-         stack<int>check;
+         stack<char>check;
         for(int i=0;i<s.length();i++)
         {
             if(check.empty() || s[i]=='(' || s[i]=='{' || s[i]=='[')
